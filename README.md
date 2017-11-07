@@ -8,13 +8,13 @@ Cities auto completion application
 
 	2.1	Make sure that Java and Ant is configured in you machine.
         
-	2.2	Extract the downloaded file you will see autocomplete folder.
+	2.2	Extract the downloaded file you will see autocomplete-master folder.
         
 	2.3	Open the command prompt in you machine.
         
-	2.4	Navigate to autocomplete folder in autocomplete folder through command prompt.
+	2.4	Navigate to autocomplete folder through command prompt.
         
-		Ex: cd autocomplete/autocomplete
+		Ex: cd autocomplete
                 
 	2.5 Run the build.xml using below command.
         
