@@ -12,9 +12,9 @@ Cities auto completion application
         
 	2.3	Open the command prompt in you machine.
         
-	2.4	Navigate to autocomplete folder through command prompt.
+	2.4	Navigate to autocomplete folder in autocomplete folder through command prompt.
         
-		Ex: cd autocomplete
+		Ex: cd autocomplete/autocomplete
                 
 	2.5 Run the build.xml using below command.
         
