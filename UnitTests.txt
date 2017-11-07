@@ -1,0 +1,25 @@
+Auto Complete Unit test cases
+
+Actual input format : java -jar autocomplete.jar start atmost
+1.	start should be any string.
+2.	atmost value should be any number.
+
+S.NO	Input			Output
+
+1		Hyde 3 3		Wrong input, input should be in the format of start atmost,Ex: java -jar autocomplete.jar che 5 (If the input has three arguments.)
+2		Hyde Hyd		The atmost value should be number.Ex: java -jar autocomplete.jar che 5 (If atmost value is not a number)
+3		Hyde 0			The atmost value should be greather than 0(Zero). (If atmost value is 0.)
+4		Hyde -5			The atmost value should be greather than 0(Zero). (If atmost value is negative.)
+5		Hy	5			Hyderabad, Hyder Nagar (Each city in new line.)
+6		Ab	4			We did't find any suggestions for the search criteria.Thank You. (If we don't find any suggestions we will show this message.)
+7		Hydera	10		(If we find the count of suggestions less then atmost.)
+8		123Hyd	5		We did't find any suggestions for the search criteria.Thank You. (If we don't find any suggestions we will show this message.)
+9		Hy123	5		We did't find any suggestions for the search criteria.Thank You. (If we don't find any suggestions we will show this message.)
+				
+						(We are considering every city name in lower case and displaying result as first letter in city as Capital and all other letters as small letters.)
+10		ban		5		Banaskantha, Banda, Bandipora, Bangalore Rural, Bangalore Urban (Each city in new line.)
+11		Ban		5		Banaskantha, Banda, Bandipora, Bangalore Rural, Bangalore Urban (Each city in new line.)
+12		BAN		5		Banaskantha, Banda, Bandipora, Bangalore Rural, Bangalore Urban (Each city in new line.)
+13		BaN		5		Banaskantha, Banda, Bandipora, Bangalore Rural, Bangalore Urban (Each city in new line.)
+14		3 3		3		We did't find any suggestions for the search criteria.Thank You. (If we don't find any suggestions we will show this message.)
+15		3 2		0		The atmost value should be greather than 0(Zero). (If atmost value is 0.)
